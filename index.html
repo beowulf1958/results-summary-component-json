@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body class="bg-paleBlue grid place-items-center min-h-screen text-lg">
+  <!-- this is the wrapper -->
+  <article class="bg-white flex flex-col rounded-b-3xl md:rounded-3xl overflow-hidden md:flex-row md:w-[700px] w-[350px] md:shadow-2xl">
+    <!------------------------>
+    <!--    left section    --> 
+    <!------------------------> 
+    <section 
+      class="results bg-linear-to-b from-slateBlue to-royalBlue p-4 flex flex-col items-center rounded-b-3xl md:rounded-3xl">
+      <h2 class="text-white/70">Your Result</h2>
+      <div class="circle bg-linear-to-b from-violetBlue to-persianBlue rounded-full h-40 w-40 flex flex-col items-center justify-center">
+        <h1 id="output" class="text-white font-bold text-5xl">
+          <!-- average of scores goes here -->
+        </h1>
+        <p class="text-white/70">of 100</p>
+      </div>
+      <h2 class="text-2xl font-bold text-white">Great</h2>
+      <p class="text-center text-white/70">
+        You scored higher than 65% of the people who have taken these tests
+      </p>
+    </section>
+    <!--------------------------->
+    <!---     right section    -->
+    <!--------------------------->
+    <section class="summary p-4">
+      <h2 class="text-2xl font-bold mb-4">Summary</h1>
+      <ul id="scores flex flex-col items-center justify-center">
+        <!-- scores goes here -->
+      </ul>
+      <div class="flex justify-center">
+        <button class="bg-darkGray w-[250px] px-4 py-2 rounded-3xl text-white cursor-pointer hover:bg-linear-to-b hover:from-slateBlue hoverto-royalBlue">Continue</button>
+      </div>
+    </section>
+  </article>
+ 
+  <footer class="attribution text-sm">
+    Challenge by 
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" 
+    class="text-cobaltBlue hover:text-lightRed">Frontend Mentor</a>. 
+    Coded by 
+    <a href="https://www.frontendmentor.io/profile/beowulf1958" 
+    class="text-cobaltBlue hover:text-lightRed">Jordan Murrin</a>.
+  </footer>
+
+  <script src="main.js"> </script>
+</body>
+</html>
