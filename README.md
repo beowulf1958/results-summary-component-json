@@ -25,14 +25,12 @@ This is a re-do of a previous project. I did it once with vanilla HTML, CSS. Nex
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+![screenshot](./Frontend Mentor Results summary component.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://results-summary-json.netlify.app/])
 
 ## My process
 
@@ -55,31 +53,14 @@ Add a screenshot of your solution. The easiest way to do this is to use Firefox 
 - The biggest challenge was how to style the list-items dynamically. Each category has its own color scheme. I solved this by adding the background-color and text-color to the json file. I learned how to load an icon dynamically in javascript in Tailwind.
 
 
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
 ### Continued development
 
 The site looks great in live server; now I have to figure out how to build it for production
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Bytegrad Display data from json in html](https://www.example.com](https://www.youtube.com/watch?v=Oage6H4GX2o) - This helped me for to clean up my javascript. I really liked this pattern and will use it going forward.
+
 
 
 ## Author
