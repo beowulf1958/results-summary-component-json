@@ -29,7 +29,7 @@ This is a re-do of a previous project. I did it once with vanilla HTML, CSS. Nex
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/results-summary-using-tailwind-css-and-javascript-fetch-api-VrMimJoEe7)
 - Live Site URL: [https://results-summary-json.netlify.app/])
 
 ## My process
