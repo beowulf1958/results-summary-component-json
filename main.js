@@ -1,4 +1,4 @@
-var total = 0;
+let total = 0;
 
         // fetch data from jason file
         fetch('data.json')
@@ -20,7 +20,7 @@ var total = 0;
             document.querySelector('ul').insertAdjacentHTML("beforeend", markup);
 
         // calculate the average
-            let avg = (Math.round(total/data.length));
+            const avg = (Math.round(total/data.length));
             console.log(avg);
 
         // Get a reference to the HTML element
