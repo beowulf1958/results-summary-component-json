@@ -10,7 +10,7 @@ var total = 0;
         data.forEach(score => {
             const markup = `<li class="text-lg flex justify-between ${score.txt} ${score.bg} mb-3 px-4 py-2 w-[300px] rounded-xl ">
                             <div class="flex items-center gap-3">
-                                <img src="${score.icon}"/> ${score.category}</div>
+                                <img src="${score.icon}" alt="${score.category}" /> ${score.category}</div>
                             <div class="text-gray-400">
                                 <span class="text-black"> ${score.score}</span>/100 
                             </div>
